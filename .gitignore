@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment variables and secrets
+.env
+.env.*
+*.env
+server/config/config.env
+
+# Temporary uploads
+server/uploads/tmp-*
+
+# Build files
+dist/
+build/
+
+# Logs
+*.log
+
+# Archives
+*.zip
